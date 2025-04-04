@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 gas = ct.Solution('gri30.yaml')
 initial_temperature = 1700  # K
 initial_pressure = ct.one_atm
-composition = 'CH4:1, O2:2, N2:7.52'
+composition = 'CH4:1, O2:2, N2:7.52'  "1"
 gas.TPX = initial_temperature, initial_pressure, composition
 
 # -----------------------------
