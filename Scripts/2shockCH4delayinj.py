@@ -206,5 +206,5 @@ plt.xlabel("Distance (m)")
 plt.ylabel("Mach")
 plt.legend()
 plt.grid(True)
-plt.tight_layout() '1'
+plt.tight_layout()
 plt.show()
